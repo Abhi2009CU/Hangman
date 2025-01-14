@@ -2,14 +2,14 @@
 import processing.core.PApplet;
 import processing.core.PImage;
 import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrays;
 
 public class hangman extends PApplet {
 
     int lettersWrongFile;
     String currWord;
     PImage step;
-    ArrayList<String> words = new ArrayList<>(List.of(
+    ArrayList<String> words = new ArrayList<>(Arrays.asList(
             "bridge", "marble", "guitar", "anchor", "ticket", "dragon", "forest", "planet", "circle", "desert",
             "friend", "sunset", "flower", "puzzle", "window", "castle", "spring", "pocket", "doctor", "mirror",
             "ocean", "winter", "shadow", "rocket", "island", "silver", "travel", "garden", "lantern", "fabric",
