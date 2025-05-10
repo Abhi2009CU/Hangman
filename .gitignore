@@ -1,0 +1,11 @@
+
+*.iml
+core.jar
+
+# Ignore compiled Java class files
+*.class
+
+# Ignore build and output directories
+bin/
+build/
+out/
